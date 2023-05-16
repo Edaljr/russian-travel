@@ -1,0 +1,23 @@
+.header__lang-link {
+  display: flex;
+  align-self: flex-end;
+}
+.header__lang-link a:hover {
+  text-decoration-line: none;
+}
+.header__lang-link a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+.header__lang-link a:first-child {
+  margin-right: 18px;
+}
+@media (max-width: 320px) {
+  .header__lang-link a {
+    font-size: 18px;
+  }
+}
