@@ -1,11 +1,11 @@
-.place_paragraph {
+.place__paragraph {
     margin-top: 26px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
   }
-  .place_paragraph:first-child {
+  .place__paragraph:first-child {
     margin-top: 0;
   }
   @media (max-width: 768px) {
