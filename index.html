@@ -15,9 +15,9 @@
           src="./images/header-logo.svg"
           alt="Лого Россия"
         />
-        <div class="header__lang-link">
-          <a href="#" target="_blank">Ru</a>
-          <a href="#" target="_blank">En</a>
+        <div class="header__lang-links">
+          <a href="#" target="_blank" class="header__lang-link">Ru</a>
+          <a href="#" target="_blank" class="header__lang-link">En</a>
         </div>
       </header>
       <main class="content">
@@ -49,6 +49,10 @@
             <li>
               Объектов природного наследия ЮНЕСКО
               <span class="intro__list-span">12</span>
+            </li>
+            <li>
+              Объектов культурного наследия ЮНЕСКО
+              <span class="intro__list-span">16</span>
             </li>
             <li>
               Природных заповедников <span class="intro__list-span">105</span>
@@ -150,13 +154,8 @@
           <article class="place">
             <h3 class="place__title">Куршская коса</h3>
             <div class="place__website">
-              <a href="#" class="place__url-heading" target="_blank"
-                >URL</a
-              >
-              <a
-                href="http://park-kosa.ru"
-                class="place__link"
-                target="_blank"
+              <p class="place__url-heading">URL</p>
+              <a href="http://park-kosa.ru" class="place__link" target="_blank"
                 >park-kosa.ru</a
               >
             </div>
@@ -185,12 +184,7 @@
           <article class="place">
             <h3 class="place__title">Кольский</h3>
             <div class="place__website">
-              <a
-                href="_blank"
-                class="place__url-heading"
-                target="_blank"
-                >URL</a
-              >
+              <p class="place__url-heading">URL</p>
               <a
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                 class="place__link"
@@ -223,9 +217,7 @@
           <article class="place">
             <h3 class="place__title">Алтай</h3>
             <div class="place__website">
-              <a href="#" class="place__url-heading" target="_blank"
-                >URL</a
-              >
+              <p class="place__url-heading">URL</p>
               <a
                 href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
                 class="place__link"
@@ -258,9 +250,7 @@
           <article class="place">
             <h3 class="place__title">Зимний Байкал</h3>
             <div class="place__website">
-              <a href="#" class="place__url-heading" target="_blank"
-                >URL</a
-              >
+              <p class="place__url-heading">URL</p>
               <a
                 href="https://vk.com/baikalmile"
                 class="place__link"
@@ -292,13 +282,8 @@
           <article class="place">
             <h3 class="place__title">Карелия</h3>
             <div class="place__website">
-              <a href="#" class="place__url-heading" target="_blank"
-                >URL</a
-              >
-              <a
-                href="http://vodlozero.ru"
-                class="place__link"
-                target="_blank"
+              <p class="place__url-heading">URL</p>
+              <a href="http://vodlozero.ru" class="place__link" target="_blank"
                 >http://vodlozero.ru/</a
               >
             </div>
@@ -322,23 +307,20 @@
             </div>
           </article>
         </section>
-        
         <section class="cover" aria-label="До Байкала на собаках">
-          <div>
-            <a
-              href="https://stampsy.com/na-elektrichkakh-do-baikala"
-              class="cover__link"
-              target="_blank"
-            >
-              <h2 class="cover__title">
-                До&nbsp;Байкала  &laquo;на собаках&raquo;
-              </h2>
-              <p class="cover__subtitle">
-                По мотивам учебной темы о Транссибе — путешествие от столицы до
-                Байкала на электричках.
-              </p>
-            </a>
-          </div>
+          <a
+            href="https://stampsy.com/na-elektrichkakh-do-baikala"
+            class="cover__link"
+            target="_blank"
+          >
+            <h2 class="cover__title">
+              До&nbsp;Байкала &laquo;на собаках&raquo;
+            </h2>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </p>
+          </a>
         </section>
       </main>
       <footer class="footer" aria-label="Навигация">
@@ -373,3 +355,4 @@
     </div>
   </body>
 </html>
+

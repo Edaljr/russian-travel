@@ -8,27 +8,11 @@
   font-size: 72px;
   line-height: 76px;
   color: #ffffff;
-  padding-top: 245px;
   margin: 0;
 }
-@media (max-width: 1024px) {
-  .cover__title {
-    padding-top: 195px;
-  }
-}
-@media (max-width: 850px) {
-  .cover__title {
-    padding-top: 165px;
-  }
-}
-@media (max-width: 768px) {
-  .cover__title {
-    padding-top: 115px;
-  }
-}
+
 @media (max-width: 666px) {
   .cover__title {
-    padding-top: 105px;
     font-size: 69px;
     line-height: 66px;
     max-width: 500px;
@@ -36,40 +20,24 @@
 }
 @media (max-width: 510px) {
   .cover__title {
-    padding-top: 75px;
-    font-size: 59px;
-    line-height: 56px;
-    max-width: 450px;
+    font-size: 50px;
+    line-height: 53px;
+    max-width: 380px;
   }
 }
-@media (max-width: 460px) {
-  .cover__title {
-    padding-top: 45px;
-    font-size: 46px;
-    line-height: 49px;
-    max-width: 350px;
-  }
-}
+
 @media (max-width: 385px) {
   .cover__title {
-    padding-top: 40px;
     font-size: 40px;
     line-height: 43px;
     max-width: 300px;
   }
 }
-@media (max-width: 350px) {
-  .cover__title {
-    padding-top: 37px;
-    font-size: 36px;
-    line-height: 39px;
-    max-width: 250px;
-  }
-}
+
 @media (max-width: 320px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    padding-top: 35px;
+    max-width: 288px;
   }
 }
